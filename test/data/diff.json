@@ -1,0 +1,95 @@
+{
+  "id": 1,
+  "editType": "reserve",
+  "reserved": true,
+  "isPropertyChanged": false,
+  "hasChildChanged": false,
+  "oldTreeNodeId": "a",
+  "newTreeNodeId": "a",
+  "children": [
+    {
+      "id": 2,
+      "editType": "reserve",
+      "isPropertyChanged": false,
+      "hasChildChanged": false,
+      "oldTreeNodeId": "b",
+      "newTreeNodeId": "b",
+      "children": [
+        {
+          "id": 5,
+          "editType": "remove",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "oldTreeNodeId": "d",
+          "children": []
+        },
+        {
+          "id": 6,
+          "editType": "move",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "oldTreeNodeId": "e",
+          "newTreeNodeId": "e",
+          "children": [],
+          "moveSource": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "editType": "reserve",
+      "isPropertyChanged": false,
+      "hasChildChanged": false,
+      "oldTreeNodeId": "c",
+      "newTreeNodeId": "c",
+      "children": [
+        {
+          "id": 7,
+          "editType": "move",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "oldTreeNodeId": "e",
+          "newTreeNodeId": "e",
+          "children": [],
+          "moveTarget": true
+        },
+        {
+          "id": 8,
+          "editType": "add",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "newTreeNodeId": "f",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "editType": "replace",
+      "isPropertyChanged": false,
+      "hasChildChanged": false,
+      "oldTreeNodeId": "x",
+      "newTreeNodeId": "y",
+      "children": [
+        {
+          "id": 9,
+          "editType": "reserve",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "oldTreeNodeId": "m",
+          "newTreeNodeId": "m",
+          "children": []
+        },
+        {
+          "id": 10,
+          "editType": "replace",
+          "isPropertyChanged": false,
+          "hasChildChanged": false,
+          "oldTreeNodeId": "n",
+          "newTreeNodeId": "o",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

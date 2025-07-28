@@ -1,0 +1,27 @@
+[
+  {
+    "operationType": "remove",
+    "nodeId": "d"
+  },
+  {
+    "operationType": "move",
+    "nodeId": "e",
+    "parentNodeId": "c"
+  },
+  {
+    "operationType": "add",
+    "nodeId": "f",
+    "parentNodeId": "c",
+    "preNodeId": "e"
+  },
+  {
+    "operationType": "replace",
+    "sourceNodeId": "x",
+    "targetNodeId": "y"
+  },
+  {
+    "operationType": "replace",
+    "sourceNodeId": "n",
+    "targetNodeId": "o"
+  }
+]
